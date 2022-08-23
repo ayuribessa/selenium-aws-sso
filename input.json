@@ -1,0 +1,35 @@
+{
+    "source": {
+        "run_id": "6d1f6762-cd55-4113-9e24-b1ce1da2eff7"
+    },
+    "target": {
+        "process_id": "SSO.create_user"
+    },
+    "body": {
+        "login": {
+            "password": "password",
+            "url": "url",
+            "username": "username"
+        },
+        "services": [
+            {
+                "input": {
+                    "users": [
+                        {
+                            "task": "create",
+                            "email": "testuser@test.com",
+                            "firstname": "Carlos ",
+                            "lastname": "alberto",
+                            "account_id": "id",
+                            "groups": [
+                                "G1",
+                                "G2",
+                                "G3"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
